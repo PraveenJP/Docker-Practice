@@ -1,0 +1,15 @@
+sudo docker build -t jenkins-data -f Dockerfile-data .
+cd Desktop/
+cd Docker_Practice/
+ls
+cd Jenkins/
+ls
+sudo docker build -t jenkins-data -f Dockerfile-data .
+sudo docker build -t jenkins2 .
+ls
+sudo docker build -t jenkins2 .
+sudo docker images
+sudo docker run --name=jenkins-data jenkins-data
+docker run -p 8081:8080 -p 50000:50000 --name=jenkins-master --volumes-from=jenkins-data -d jenkins2
+sudo docker run -p 8081:8080 -p 50000:50000 --name=jenkins-master --volumes-from=jenkins-data -d jenkins2
+sudo docker exec jenkins-master cat /var/jenkins_home/secrets/initialAdminPassword
