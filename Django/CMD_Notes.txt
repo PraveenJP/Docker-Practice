@@ -1,0 +1,26 @@
+docker pull postgres
+sudo docker pull postgres
+sudo docker exec -it ubuntu:lates bash
+sudo docker exec -it ubuntu:latest bash
+sudo docker images
+sudo docker run -it ubuntu:latest bash
+sudo docker exec -ti ubuntu:latest bash
+sudo docker exec -ti ubuntu bash
+clear
+cd Desktop/Docker_Practice/Django/
+clear
+sudo docker-compose run web django-admin.py startproject composeexample .
+sudo docker-compose run web django-admin.py startproject composeexample .ll
+ll
+clear
+ls
+ll
+ls -l
+sudo chown $USER:$USER .
+sudo chown -R $USER:$USER .
+ls -l
+docker-compose up
+sudo docker-compose up
+sudo docker ps
+sudo docker-compose up
+sudo docker ps
