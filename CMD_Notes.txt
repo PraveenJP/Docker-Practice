@@ -1,0 +1,160 @@
+sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+     $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+sudo docker run hello-world
+docker run -it ubuntu bash
+sudo docker run -it ubuntu bash
+sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server
+sudo docker ps
+netstar -lpn
+netstat -lpn
+sudo docker ps
+sudo docker images
+sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+clear
+sudo docker pull python
+sudo docker images
+docker pull httpd
+sudo docker pull httpd
+sudo docker images
+sudo docker run -d -P httpd
+sudo docker ps
+sudo docker images
+sudo docker run -d -P hello-word
+sudo docker run -d -P hello-world
+sudo docker ps
+sudo docker ps
+sudo docker run -d -P hello-world
+sudo docker ps
+sudo docker run -d
+sudo docker run -d -P httpd
+sudo docker ps
+sudo docker stop 47d641e0550c
+sudo docker images
+sudo docker run -e CATTLE_AGENT_IP="192.168.10.156"  -e CATTLE_HOST_LABELS='next=jp'  --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.9 http://192.168.10.156:8080/v1/scripts/7A32B97048CBEA64E279:1514678400000:nnXA2Ty4HC8UO6jtAmaHJmjswco
+sudo docker images
+sudo docker ps
+cd Desktop/
+cd Sample-PHP-Project/
+sudo docker build -t="PHPSite"
+sudo docker build -t "PHPSite"
+sudo docker build -t "php_site"
+sudo docker build -t="php_site"
+sudo docker build -t "phpsite"
+docker build -t "phpsite"
+docker build -t phpsite
+docker build -t phpsite .
+sudo docker build -t phpsite .
+sudo docker images
+sudo docker run -d -P phpsite
+sudo docker ps
+sudo docker stop adb1b5ebb01d
+sudo docker build -t phpsite .
+sudo docker stop phpsite
+sudo docker ps
+sudo docker stop 111bc4ac74e7
+sudo docker run -d -P phpsite
+sudo docker ps
+sudo docker stop 92354c36dd79
+sudo docker run -d -P -p 8081:80 p
+sudo docker run -d -p 8083:80 phpsite
+sudo docker build -t phpsite .
+sudo docker ps
+sudo docker stop dedf85607afd
+sudo docker run -d -p 8083:80 phpsite
+sudo docker ps
+sudo docker stop 726ee90e3b8f
+sudo docker images
+sudo docker rm <none>
+sudo docker rm none
+sudo docker save phpsite > phpsite.tar
+sudo docker images
+sudo docker rmi 909cf32a9f78
+sudo docker images
+sudo docker rmi 2b4eccfb30e5
+sudo docker ps
+sudo docker stop 111bc4ac74e7
+sudo docker rmi 2b4eccfb30e5
+sudo docker ps
+sudo docker rmi 2b4eccfb30e5
+sudo docker images
+sudo docker rmi -f 2b4eccfb30e5
+sudo docker rmi -f 909cf32a9f78
+sudo docker images
+cd Desktop/
+sudo docker save phpsite > php.tar
+scp -r php.tar next@192.168.10.175:/home/next/Desktop/
+sudo docker ps
+where jenkins
+whereis jenkins
+locate jenkins
+sudo docker pull jenkins/jenkins:lts
+sudo docker images
+sudo docker run -d -P jenkins/jenkins
+sudo docker ps
+sudo docker ps
+sudo docker run -it jenkins/jenkins
+sudo docker ps
+scp -r phpsite.tar next@192.168.10.175:/home/next/Desktop
+ssh-keygen -f "/home/next/.ssh/known_hosts" -R 192.168.10.175
+sudo ssh-keygen -f "/home/next/.ssh/known_hosts" -R 192.168.10.175
+scp -r phpsite.tar next@192.168.10.175:/home/next/Desktop
+sudo docker images
+sudo docker ps
+sudo docker run -d -P jenkins/jenkins
+sudo docker ps
+sudo docker stop f35566c9c41a
+sudo docker run -p 8081:8080 jenkins/jenkins
+sudo docker ps
+sudo docker run -d -P jenkins/jenkins
+sudo docker ps
+sudo docker stop 512178e763e2
+sudo docker run -d -P -p 8081:8080 jenkins/jenkins
+sudo docker ps
+sudo docker stop d407a5344d89
+sudo docker run -p 8081:8080 jenkins/jenkins
+sudo docker ps
+clear
+sudo docker build -t jenkins-data -f Dockerfile-data .
+cd Desktop/
+cd Docker_Practice/
+ls
+cd Jenkins/
+ls
+sudo docker build -t jenkins-data -f Dockerfile-data .
+sudo docker build -t jenkins2 .
+ls
+sudo docker build -t jenkins2 .
+sudo docker images
+sudo docker run --name=jenkins-data jenkins-data
+docker run -p 8081:8080 -p 50000:50000 --name=jenkins-master --volumes-from=jenkins-data -d jenkins2
+sudo docker run -p 8081:8080 -p 50000:50000 --name=jenkins-master --volumes-from=jenkins-data -d jenkins2
+sudo docker exec jenkins-master cat /var/jenkins_home/secrets/initialAdminPassword
+clear
+sudo docker ps
+sudo docker stop adb1b5ebb01d
+sudo docker ps
+clear
+docker-compose
+sudo docker-compose
+sudo docker pull python
+cd
+clear
+sudo docker images
+sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo docker rm 34a453d374b9
+sudo docker rmi 34a453d374b9
+sudo docker images
+sudo docker rmi -f 34a453d374b9
+sudo docker rmi -f 279f21046a63
+clear
+sudo docker images
+sudo docker-compose
+sudo docker-compose -help
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
