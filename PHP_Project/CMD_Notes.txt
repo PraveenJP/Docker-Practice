@@ -1,0 +1,20 @@
+402  cd Sample-PHP-Project/
+403  clear
+404  ls
+405  sudo docker build -t="PHPSite"
+406  sudo docker build -t "PHPSite"
+407  sudo docker build -t "php_site"
+408  sudo docker build -t="php_site"
+409  sudo docker build -t "phpsite"
+410  docker build -t "phpsite"
+411  docker build -t phpsite
+412  docker build -t phpsite .
+413  sudo docker build -t phpsite .
+414  sudo docker images
+415  sudo docker run -d -P phpsite
+416  sudo docker ps
+417  sudo docker stop adb1b5ebb01d
+418  clear
+419  sudo docker build -t phpsite .
+420  sudo docker stop phpsite
+421  sudo docker ps
